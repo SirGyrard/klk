@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RestoranActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:paddingTop="60dp"
+        android:text="Makanan"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etMakanan"
+        android:hint="Makanan"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30sp"
+        android:text="Qty"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etQty"
+        android:inputType="number"
+        android:hint="Qty"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30sp"
+        android:text="Harga"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etHarga"
+        android:inputType="number"
+        android:hint="Harga"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSimpan"
+        android:text="Simpan"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

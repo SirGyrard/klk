@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".perhitunganmahasiswa">
+
+    <TextView
+        android:textSize="30sp"
+        android:paddingTop="60dp"
+        android:text="Perhitungan Lulusan Mahasiswa"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="30sp"
+        android:paddingTop="60dp"
+        android:text="Nama Mahasiswa"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etnmhs"
+        android:hint=""
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30sp"
+        android:paddingTop="60dp"
+        android:text="Mata Pelajaran"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etmp"
+        android:hint=""
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30sp"
+        android:paddingTop="60dp"
+        android:text="Nilai"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>\
+
+    <EditText
+        android:id="@+id/etnilai"
+        android:inputType="number"
+        android:hint="0"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:text="Hitung"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
